@@ -93,3 +93,14 @@ header {
     display: block;
     color: #fafafa;
 }
+
+.menuitem span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
