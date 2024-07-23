@@ -86,3 +86,10 @@ header {
     text-decoration: none;
     color: #ffffff;
 }
+
+.menuitem a i {
+    padding-top: 22px;
+    font-size: 26px;
+    display: block;
+    color: #fafafa;
+}
