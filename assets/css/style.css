@@ -140,4 +140,7 @@ header {
 
 footer {
     background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
