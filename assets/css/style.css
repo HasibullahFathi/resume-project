@@ -163,3 +163,27 @@ footer {
 .cv-pdf:hover i {
     color: #e84610;
 }
+
+.social-link li a i {
+    font-size: 13px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 12px 0;
+    line-height: 7px;
+    text-align: center;
+    background: #8f8f8f;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-link li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
