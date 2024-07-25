@@ -290,3 +290,44 @@ footer {
     color: #fafafa;
     margin-bottom: 50px;
 }
+
+.timeline-item {
+    position: relative;
+    padding: 4em 2em 0em 2em;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    margin: 0;
+    padding: 0;
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    display: block;
+    top: 2.4em;
+    left: -6px;
+    position: absolute;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
